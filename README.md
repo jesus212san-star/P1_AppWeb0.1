@@ -1,130 +1,43 @@
-#Appweb
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mi App Web</title>
-<link rel="stylesheet" href="styles.css">
-</head>
+# Mi App Web
 
-<body>
+**Práctica 1 - Sub 2**
 
-<div class="app">
-  
-    <header>
-        <h1>Mi App Web</h1>
-        <p>Práctica 1 - Sub 2</p>
-    </header>
+Este proyecto es una página web responsiva con apariencia de aplicación móvil.  
+El diseño se adapta a pantallas de celular y laptop.
 
-    <section class="card alumno">
-        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
-        <h2>Alumno</h2>
-        <p>Escribe aquí tu nombre</p>
-    </section>
+## 👤 Alumno
+Escribe aquí tu nombre
 
-    <section class="card opciones">
-        <h2>Opciones</h2>
+## 📱 Opciones de la aplicación
 
-        <button>Inicio</button>
-        <button>Perfil</button>
-        <button>Tareas</button>
-        <button>Ajustes</button>
+- 🏠 Inicio
+- 👤 Perfil
+- 📋 Tareas
+- ⚙️ Ajustes
 
-    </section>
+## 📄 Descripción
 
-    <section class="card bienvenida">
-        <h2>Bienvenido</h2>
-        <p>
-        Esta es una página web responsiva con apariencia de app móvil.
-        Su diseño se adapta a la pantalla del celular o laptop.
-        </p>
-    </section>
+La página muestra una interfaz simple tipo app móvil que incluye:
 
-    <footer>
-        <span>🏠</span>
-        <span>📋</span>
-        <span>⚙️</span>
-    </footer>
+- Tarjeta de información del alumno
+- Menú de opciones
+- Sección de bienvenida
+- Barra de navegación inferior
 
-</div>
+## 🛠 Tecnologías utilizadas
 
-</body>
-</html>
-body{
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
-    background:#3f5c99;
-    display:flex;
-    justify-content:center;
-}
+- HTML5
+- CSS3
+- Diseño responsivo
 
-.app{
-    width:360px;
-    background:white;
-    border-radius:20px;
-    padding:20px;
-    margin:20px;
-}
+## 📷 Vista previa
 
-header{
-    text-align:center;
-}
+La aplicación tiene una apariencia similar a una app móvil con botones grandes y una navegación sencilla.
 
-header h1{
-    color:#2f4d86;
-    margin-bottom:5px;
-}
+## 🚀 Cómo usar el proyecto
 
-header p{
-    color:gray;
-}
+1. Clonar el repositorio o descargar los archivos.
+2. Abrir el archivo **index.html** en el navegador.
+3. Explorar las opciones de la aplicación.
 
-.card{
-    background:#f1f2f6;
-    border-radius:15px;
-    padding:20px;
-    margin-top:20px;
-}
-
-.alumno{
-    text-align:center;
-}
-
-.alumno img{
-    width:80px;
-}
-
-.opciones h2{
-    margin-bottom:10px;
-}
-
-button{
-    width:100%;
-    padding:12px;
-    margin:8px 0;
-    border:none;
-    border-radius:10px;
-    background:#3f5c99;
-    color:white;
-    font-size:16px;
-    cursor:pointer;
-}
-
-button:hover{
-    background:#2f4d86;
-}
-
-.bienvenida p{
-    color:#555;
-}
-
-footer{
-    background:#3f5c99;
-    color:white;
-    border-radius:12px;
-    margin-top:20px;
-    padding:10px;
-    display:flex;
-    justify-content:space-around;
-    font-size:22px;
-}
+## 📂 Estructura del proyecto
